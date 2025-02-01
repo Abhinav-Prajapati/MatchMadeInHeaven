@@ -1,13 +1,23 @@
 // index.js
+require('dotenv').config();  // Load environment variables from .env file
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
 const fs = require("fs");
-const Game = require("./service.js")
+const cors = require('cors');
+const Game = require("./service.js");
 
 const app = express();
 const server = http.createServer(app);
-const io = socketIo(server);
+const io = socketIo(server, {
+    cors: {
+        origin: "*", // Allow all origins (or specify your frontend URL)
+        methods: ["GET", "POST"]
+    }
+});
+
+app.use(cors());
+
 var quizzes;
 
 // Load questions from json file
@@ -17,7 +27,6 @@ fs.readFile("./quizzes.json", "utf8", (err, data) => {
     return;
   }
   quizzes = JSON.parse(data).quizzes;
-  console.log(quizzes)
 });
 
 const rooms = {}; // Store active games
@@ -62,6 +71,13 @@ io.on("connection", (socket) => {
         }
     });
 
+    socket.on("nextQuestion", ({ roomId }) => {
+      const game = rooms[roomId];
+      if (game) {
+          game.readyForNext(socket.id);
+      }
+  });
+
     socket.on("disconnect", () => {
         console.log(`User disconnected: ${socket.id}`);
     });
@@ -70,5 +86,5 @@ io.on("connection", (socket) => {
 // Start the server
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server is running on ${process.env.SERVER_URL || "http://localhost"}:${PORT}`);
 });
