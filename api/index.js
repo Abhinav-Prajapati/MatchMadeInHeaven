@@ -83,11 +83,9 @@ io.on("connection", (socket) => {
     });
 });
 
-app.listen(3000, () => console.log('Server ready on port 3000.'));
 
-module.exports = app;
 // Start the server
-// const PORT = process.env.PORT || 3000;
-// server.listen(PORT, () => {
-// console.log(`Server is running on ${process.env.SERVER_URL || "http://localhost"}:${PORT}`);
-// });
+ const PORT = process.env.PORT || 3000;
+ server.listen(PORT, () => {
+ console.log(`Server is running on ${process.env.SERVER_URL || "http://localhost"}:${PORT}`);
+ });
