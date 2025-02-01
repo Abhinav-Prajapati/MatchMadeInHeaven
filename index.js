@@ -12,31 +12,26 @@ app.get('/', (req, res) => {
 });
 
 io.on('connection', (socket) => {
+  
   console.log(`A user connected ${socket.id}`);
   
-  socket.on('chat message', (msg) => {
-    
-    console.log('Message received: ' + msg);
-    
-    socket.broadcast.emit('chat message', msg);
+  socket.on('join', (roomId) => {
+    console.log(`Joined room ${roomId}`);
+    socket.join(roomId);
   });
   
-  socket.on('disconnect', () => {
-    console.log('User disconnected');
+  socket.on('chat', (data) => {
+    const msg = data.msg
+    const roomId = data.roomId
+    console.log(`Msg from ${roomId} : msg ${msg}`);
+    socket.to(roomId).emit('chat', msg);
   });
 
-  socket.on('join_room', (roomId)=>{
-    socket.join(roomId);
-    console.log(`User Joined room: ${roomId}`)
-    socket.to(roomId).emit('system_message', 'A new user has joined room')
-  })
-
-  socket.on('chat_message',({room,message})=>{
-    console.log(`Message received in room ${room}: ${message}`);
-    io.to(room).emit('chat_message', message); 
-  })
+  socket.on('public', (msg) => {
+    console.log(`Msg in public channel : ${msg}`);
+    socket.broadcast.emit('public', msg);
+  });
 });
-
 
 // Start the server
 const PORT = process.env.PORT || 3000;
