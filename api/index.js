@@ -18,6 +18,10 @@ const io = socketIo(server, {
 
 app.use(cors());
 
+app.get("/", (req, res) => {
+    res.json({ message: "WebSocket Game Server is running!" });
+});
+
 var quizzes;
 
 // Load questions from json file
@@ -30,10 +34,6 @@ fs.readFile("./quizzes.json", "utf8", (err, data) => {
 });
 
 const rooms = {}; // Store active games
-
-app.get("/", (req, res) => {
-    res.json({ message: "WebSocket Game Server is running!" });
-});
 
 io.on("connection", (socket) => {
     console.log(`A user connected: ${socket.id}`);
@@ -84,7 +84,7 @@ io.on("connection", (socket) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-    console.log(`Server is running on ${process.env.SERVER_URL || "http://localhost"}:${PORT}`);
-});
+// const PORT = process.env.PORT || 3000;
+// server.listen(PORT, () => {
+// console.log(`Server is running on ${process.env.SERVER_URL || "http://localhost"}:${PORT}`);
+// });
