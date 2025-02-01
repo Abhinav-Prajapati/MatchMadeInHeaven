@@ -1,0 +1,485 @@
+{
+    "quizzes": [
+      {
+        "id": 1,
+        "question": "Who takes longer in the shower?",
+        "correctResponse": "Looks like you both agree on who's the water hog! 💦",
+        "falseResponse": "Someone's lying about their shower time... or maybe they just don’t care about water bills. 🚿"
+      },
+      {
+        "id": 2,
+        "question": "Who said 'I love you' first?",
+        "correctResponse": "Aww, you both remember it the same way! Love is in the air. ❤️",
+        "falseResponse": "Someone’s memory is as bad as their commitment skills. 😬"
+      },
+      {
+        "id": 3,
+        "question": "Who is more likely to forget an anniversary?",
+        "correctResponse": "Oof, you both agree on who's the forgetful one. Better set some reminders! 🗓️",
+        "falseResponse": "Someone’s denial is stronger than their memory. Good luck with that. 🤷‍♂️"
+      },
+      {
+        "id": 4,
+        "question": "Who is the better cook?",
+        "correctResponse": "You both agree on who rules the kitchen! Bon appétit! 🍳",
+        "falseResponse": "Someone’s cooking skills are as fake as their confidence. 🔥"
+      },
+      {
+        "id": 5,
+        "question": "Who is more likely to cry during a movie?",
+        "correctResponse": "Aww, you both know who's the emotional one. Pass the tissues! 🎬",
+        "falseResponse": "Someone’s trying to act tough, but we all know they cry during commercials. 😭"
+      },
+      {
+        "id": 6,
+        "question": "Who is more likely to hog the blankets?",
+        "correctResponse": "You both agree on who's the blanket thief! Better invest in separate blankets. 🛌",
+        "falseResponse": "Someone’s selfishness is showing... and it’s not cute. 🥶"
+      },
+      {
+        "id": 7,
+        "question": "Who is more likely to plan a surprise date?",
+        "correctResponse": "You both agree on who's the romantic one! Date night incoming! 🌹",
+        "falseResponse": "Someone’s idea of a date is Netflix and... well, just Netflix. 🍿"
+      },
+      {
+        "id": 8,
+        "question": "Who is more likely to leave the lights on?",
+        "correctResponse": "You both agree on who's the energy waster! Time to switch to LED bulbs. 💡",
+        "falseResponse": "Someone’s eco-unfriendly habits are showing. Mother Earth is disappointed. 🌍"
+      },
+      {
+        "id": 9,
+        "question": "Who is more likely to write a love letter?",
+        "correctResponse": "You both agree on who's the poet in the relationship! 📜",
+        "falseResponse": "Someone’s love letters are probably just grocery lists. 🛒"
+      },
+      {
+        "id": 10,
+        "question": "Who is more likely to forget where they parked the car?",
+        "correctResponse": "You both agree on who's the directionally challenged one! 🚗",
+        "falseResponse": "Someone’s sense of direction is as lost as their keys. 🔑"
+      },
+      {
+        "id": 11,
+        "question": "Who is more likely to sing in the shower?",
+        "correctResponse": "You both agree on who's the shower superstar! 🎤",
+        "falseResponse": "Someone’s shower concerts are probably why the neighbors complain. 🎶"
+      },
+      {
+        "id": 12,
+        "question": "Who is more likely to spend too much money on snacks?",
+        "correctResponse": "You both agree on who's the snack monster! 🍫",
+        "falseResponse": "Someone’s snack addiction is real... and so is their credit card debt. 💳"
+      },
+      {
+        "id": 13,
+        "question": "Who is more likely to get lost in a new place?",
+        "correctResponse": "You both agree on who's the navigation nightmare! 🗺️",
+        "falseResponse": "Someone’s sense of direction is as bad as their excuses. 🧭"
+      },
+      {
+        "id": 14,
+        "question": "Who is more likely to pick a romantic movie?",
+        "correctResponse": "You both agree on who's the hopeless romantic! 🎥",
+        "falseResponse": "Someone’s idea of romance is probably a documentary about rocks. 🪨"
+      },
+      {
+        "id": 15,
+        "question": "Who is more likely to forget to charge their phone?",
+        "correctResponse": "You both agree on who's the battery drainer! 🔋",
+        "falseResponse": "Someone’s phone is always dead... just like their social life. 📴"
+      },
+      {
+        "id": 16,
+        "question": "Who is more likely to suggest a spontaneous adventure?",
+        "correctResponse": "You both agree on who's the spontaneous one! Let's go! 🚀",
+        "falseResponse": "Someone’s idea of adventure is probably rearranging the couch cushions. 🛋️"
+      },
+      {
+        "id": 17,
+        "question": "Who is more likely to take the last slice of pizza?",
+        "correctResponse": "You both agree on who's the pizza hog! 🍕",
+        "falseResponse": "Someone’s selfishness is showing... and it’s not a good look. 🍴"
+      },
+      {
+        "id": 18,
+        "question": "Who is more likely to remember your favorite song?",
+        "correctResponse": "You both agree on who's the music lover! 🎶",
+        "falseResponse": "Someone’s memory is as bad as their taste in music. 🎧"
+      },
+      {
+        "id": 19,
+        "question": "Who is more likely to laugh at their own joke?",
+        "correctResponse": "You both agree on who's the comedian! 😂",
+        "falseResponse": "Someone’s jokes are as funny as a root canal. 🦷"
+      },
+      {
+        "id": 20,
+        "question": "Who is more likely to dance in public?",
+        "correctResponse": "You both agree on who's the life of the party! 💃",
+        "falseResponse": "Someone’s dance moves are probably why the party ended early. 🕺"
+      },
+      {
+        "id": 21,
+        "question": "Who is more likely to wear mismatched socks?",
+        "correctResponse": "You both agree on who's the fashion rebel! 🧦",
+        "falseResponse": "Someone’s sock game is as bad as their excuses for being late. ⏰"
+      },
+      {
+        "id": 22,
+        "question": "Who is more likely to make a funny face in photos?",
+        "correctResponse": "You both agree on who's the photo bomber! 📸",
+        "falseResponse": "Someone’s funny faces are probably why the camera broke. 🤳"
+      },
+      {
+        "id": 23,
+        "question": "Who is more likely to tell a cheesy joke?",
+        "correctResponse": "You both agree on who's the king/queen of dad jokes! 👑",
+        "falseResponse": "Someone’s jokes are so bad, even crickets wouldn’t laugh. 🦗"
+      },
+      {
+        "id": 24,
+        "question": "Who is more likely to start a food fight?",
+        "correctResponse": "You both agree on who's the troublemaker! 🍝",
+        "falseResponse": "Someone’s idea of fun is probably watching paint dry. 🎨"
+      },
+      {
+        "id": 25,
+        "question": "Who is more likely to wear pajamas all day?",
+        "correctResponse": "You both agree on who's the cozy one! 🛌",
+        "falseResponse": "Someone’s pajamas are probably older than their relationship. 🧦"
+      },
+      {
+        "id": 26,
+        "question": "Who is more likely to talk in their sleep?",
+        "correctResponse": "You both agree on who's the midnight chatterbox! 🌙",
+        "falseResponse": "Someone’s sleep-talking is probably more interesting than their conversations. 🗣️"
+      },
+      {
+        "id": 27,
+        "question": "Who is more likely to believe in superstitions?",
+        "correctResponse": "You both agree on who's the superstitious one! 🍀",
+        "falseResponse": "Someone’s superstitions are probably why they’re single... oh wait. 🪄"
+      },
+      {
+        "id": 28,
+        "question": "Who is more likely to name their plants?",
+        "correctResponse": "You both agree on who's the plant whisperer! 🌱",
+        "falseResponse": "Someone’s plants are probably dead... just like their social life. 🪴"
+      },
+      {
+        "id": 29,
+        "question": "Who is more likely to talk to strangers?",
+        "correctResponse": "You both agree on who's the social butterfly! 🦋",
+        "falseResponse": "Someone’s social skills are as awkward as a penguin in the desert. 🐧"
+      },
+      {
+        "id": 30,
+        "question": "Who is more likely to have a secret talent?",
+        "correctResponse": "You both agree on who's the hidden gem! 💎",
+        "falseResponse": "Someone’s secret talent is probably hiding their lack of talent. 🎭"
+      },
+      {
+        "id": 31,
+        "question": "Who is more likely to have a favorite childhood toy?",
+        "correctResponse": "You both agree on who's the nostalgic one! 🧸",
+        "falseResponse": "Someone’s childhood toy is probably still their best friend. 🪀"
+      },
+      {
+        "id": 32,
+        "question": "Who is more likely to have a collection of something?",
+        "correctResponse": "You both agree on who's the hoarder! 🗂️",
+        "falseResponse": "Someone’s collection is probably just a pile of junk. 🗑️"
+      },
+      {
+        "id": 33,
+        "question": "Who is more likely to have a favorite cartoon character?",
+        "correctResponse": "You both agree on who's the kid at heart! 🐱",
+        "falseResponse": "Someone’s favorite cartoon character is probably their only friend. 🦁"
+      },
+      {
+        "id": 34,
+        "question": "Who is more likely to have a favorite holiday tradition?",
+        "correctResponse": "You both agree on who's the festive one! 🎄",
+        "falseResponse": "Someone’s holiday tradition is probably binge-watching TV alone. 📺"
+      },
+      {
+        "id": 35,
+        "question": "Who is more likely to have a favorite ice cream flavor?",
+        "correctResponse": "You both agree on who's the sweet tooth! 🍦",
+        "falseResponse": "Someone’s favorite flavor is probably vanilla... how basic. 🥱"
+      },
+      {
+        "id": 36,
+        "question": "Who is more likely to have a favorite childhood memory?",
+        "correctResponse": "You both agree on who's the sentimental one! 🌈",
+        "falseResponse": "Someone’s favorite memory is probably the day they met you... sad. 😬"
+      },
+      {
+        "id": 37,
+        "question": "Who is more likely to remember your dreams?",
+        "correctResponse": "You both agree on who's the dream keeper! 🌙",
+        "falseResponse": "Someone’s memory of your dreams is as vague as their future plans. 🌌"
+      },
+      {
+        "id": 38,
+        "question": "Who is more likely to give thoughtful advice?",
+        "correctResponse": "You both agree on who's the wise one! 🦉",
+        "falseResponse": "Someone’s advice is probably as useful as a screen door on a submarine. 🚪"
+      },
+      {
+        "id": 39,
+        "question": "Who is more likely to remember your favorite book?",
+        "correctResponse": "You both agree on who's the bookworm! 📚",
+        "falseResponse": "Someone’s favorite book is probably the one they never finished. 📖"
+      },
+      {
+        "id": 40,
+        "question": "Who is more likely to remember your favorite movie?",
+        "correctResponse": "You both agree on who's the cinephile! 🎬",
+        "falseResponse": "Someone’s favorite movie is probably a documentary about paint drying. 🎥"
+      },
+      {
+        "id": 41,
+        "question": "Who is more likely to remember your favorite childhood story?",
+        "correctResponse": "You both agree on who's the storyteller! 📖",
+        "falseResponse": "Someone’s favorite story is probably the one they made up to impress you. 🧙‍♂️"
+      },
+      {
+        "id": 42,
+        "question": "Who is more likely to remember your favorite teacher?",
+        "correctResponse": "You both agree on who's the teacher's pet! 🍎",
+        "falseResponse": "Someone’s favorite teacher is probably the one who gave them a participation trophy. 🏆"
+      },
+      {
+        "id": 43,
+        "question": "Who is more likely to remember your favorite vacation spot?",
+        "correctResponse": "You both agree on who's the travel enthusiast! 🌴",
+        "falseResponse": "Someone’s favorite vacation spot is probably their couch. 🛋️"
+      },
+      {
+        "id": 44,
+        "question": "Who is more likely to remember your favorite childhood game?",
+        "correctResponse": "You both agree on who's the gamer! 🎮",
+        "falseResponse": "Someone’s favorite game is probably solitaire... because they’re always alone. 🃏"
+      },
+      {
+        "id": 45,
+        "question": "Who is more likely to remember your favorite childhood friend?",
+        "correctResponse": "You both agree on who's the loyal one! 🤝",
+        "falseResponse": "Someone’s childhood friend is probably their imaginary one. 🧚‍♂️"
+      },
+      {
+        "id": 46,
+        "question": "Who is more likely to remember your favorite childhood pet?",
+        "correctResponse": "You both agree on who's the animal lover! 🐾",
+        "falseResponse": "Someone’s favorite pet is probably the one that ran away. 🐕"
+      },
+      {
+        "id": 47,
+        "question": "Who is more likely to remember your favorite childhood food?",
+        "correctResponse": "You both agree on who's the foodie! 🍕",
+        "falseResponse": "Someone’s favorite food is probably the one they burned. 🔥"
+      },
+      {
+        "id": 48,
+        "question": "Who is more likely to remember your favorite childhood song?",
+        "correctResponse": "You both agree on who's the music lover! 🎶",
+        "falseResponse": "Someone’s favorite song is probably the one they can’t stop humming... badly. 🎤"
+      },
+      {
+        "id": 49,
+        "question": "Who is more likely to remember your favorite childhood movie?",
+        "correctResponse": "You both agree on who's the movie buff! 🎥",
+        "falseResponse": "Someone’s favorite movie is probably the one they fell asleep watching. 🛌"
+      },
+      {
+        "id": 50,
+        "question": "Who is more likely to remember your favorite childhood toy?",
+        "correctResponse": "You both agree on who's the nostalgic one! 🧸",
+        "falseResponse": "Someone’s favorite toy is probably the one they broke... just like their promises. 🪀"
+      },
+      {
+        "id": 51,
+        "question": "Who is more likely to remember your favorite childhood holiday?",
+        "correctResponse": "You both agree on who's the festive one! 🎄",
+        "falseResponse": "Someone’s favorite holiday is probably the one they spent alone. 🎁"
+      },
+      {
+        "id": 52,
+        "question": "Who is more likely to remember your favorite childhood memory?",
+        "correctResponse": "You both agree on who's the sentimental one! 🌈",
+        "falseResponse": "Someone’s favorite memory is probably the day they met you... sad. 😬"
+      },
+      {
+        "id": 53,
+        "question": "Who is more likely to remember your favorite childhood game?",
+        "correctResponse": "You both agree on who's the gamer! 🎮",
+        "falseResponse": "Someone’s favorite game is probably solitaire... because they’re always alone. 🃏"
+      },
+      {
+        "id": 54,
+        "question": "Who is more likely to remember your favorite childhood story?",
+        "correctResponse": "You both agree on who's the storyteller! 📖",
+        "falseResponse": "Someone’s favorite story is probably the one they made up to impress you. 🧙‍♂️"
+      },
+      {
+        "id": 55,
+        "question": "Who is more likely to remember your favorite childhood teacher?",
+        "correctResponse": "You both agree on who's the teacher's pet! 🍎",
+        "falseResponse": "Someone’s favorite teacher is probably the one who gave them a participation trophy. 🏆"
+      },
+      {
+        "id": 56,
+        "question": "Who is more likely to remember your favorite childhood vacation?",
+        "correctResponse": "You both agree on who's the travel enthusiast! 🌴",
+        "falseResponse": "Someone’s favorite vacation spot is probably their couch. 🛋️"
+      },
+      {
+        "id": 57,
+        "question": "Who is more likely to remember your favorite childhood friend?",
+        "correctResponse": "You both agree on who's the loyal one! 🤝",
+        "falseResponse": "Someone’s childhood friend is probably their imaginary one. 🧚‍♂️"
+      },
+      {
+        "id": 58,
+        "question": "Who is more likely to remember your favorite childhood pet?",
+        "correctResponse": "You both agree on who's the animal lover! 🐾",
+        "falseResponse": "Someone’s favorite pet is probably the one that ran away. 🐕"
+      },
+      {
+        "id": 59,
+        "question": "Who is more likely to remember your favorite childhood food?",
+        "correctResponse": "You both agree on who's the foodie! 🍕",
+        "falseResponse": "Someone’s favorite food is probably the one they burned. 🔥"
+      },
+      {
+        "id": 60,
+        "question": "Who is more likely to remember your favorite childhood song?",
+        "correctResponse": "You both agree on who's the music lover! 🎶",
+        "falseResponse": "Someone’s favorite song is probably the one they can’t stop humming... badly. 🎤"
+      },
+      {
+        "id": 61,
+        "question": "Who is more likely to remember your favorite childhood movie?",
+        "correctResponse": "You both agree on who's the movie buff! 🎥",
+        "falseResponse": "Someone’s favorite movie is probably the one they fell asleep watching. 🛌"
+      },
+      {
+        "id": 62,
+        "question": "Who is more likely to remember your favorite childhood toy?",
+        "correctResponse": "You both agree on who's the nostalgic one! 🧸",
+        "falseResponse": "Someone’s favorite toy is probably the one they broke... just like their promises. 🪀"
+      },
+      {
+        "id": 63,
+        "question": "Who is more likely to remember your favorite childhood holiday?",
+        "correctResponse": "You both agree on who's the festive one! 🎄",
+        "falseResponse": "Someone’s favorite holiday is probably the one they spent alone. 🎁"
+      },
+      {
+        "id": 64,
+        "question": "Who is more likely to remember your favorite childhood memory?",
+        "correctResponse": "You both agree on who's the sentimental one! 🌈",
+        "falseResponse": "Someone’s favorite memory is probably the day they met you... sad. 😬"
+      },
+      {
+        "id": 65,
+        "question": "Who is more likely to remember your favorite childhood game?",
+        "correctResponse": "You both agree on who's the gamer! 🎮",
+        "falseResponse": "Someone’s favorite game is probably solitaire... because they’re always alone. 🃏"
+      },
+      {
+        "id": 66,
+        "question": "Who is more likely to remember your favorite childhood story?",
+        "correctResponse": "You both agree on who's the storyteller! 📖",
+        "falseResponse": "Someone’s favorite story is probably the one they made up to impress you. 🧙‍♂️"
+      },
+      {
+        "id": 67,
+        "question": "Who is more likely to remember your favorite childhood teacher?",
+        "correctResponse": "You both agree on who's the teacher's pet! 🍎",
+        "falseResponse": "Someone’s favorite teacher is probably the one who gave them a participation trophy. 🏆"
+      },
+      {
+        "id": 68,
+        "question": "Who is more likely to remember your favorite childhood vacation?",
+        "correctResponse": "You both agree on who's the travel enthusiast! 🌴",
+        "falseResponse": "Someone’s favorite vacation spot is probably their couch. 🛋️"
+      },
+      {
+        "id": 69,
+        "question": "Who is more likely to remember your favorite childhood friend?",
+        "correctResponse": "You both agree on who's the loyal one! 🤝",
+        "falseResponse": "Someone’s childhood friend is probably their imaginary one. 🧚‍♂️"
+      },
+      {
+        "id": 70,
+        "question": "Who is more likely to remember your favorite childhood pet?",
+        "correctResponse": "You both agree on who's the animal lover! 🐾",
+        "falseResponse": "Someone’s favorite pet is probably the one that ran away. 🐕"
+      },
+      {
+        "id": 71,
+        "question": "Who is more likely to remember your favorite childhood food?",
+        "correctResponse": "You both agree on who's the foodie! 🍕",
+        "falseResponse": "Someone’s favorite food is probably the one they burned. 🔥"
+      },
+      {
+        "id": 72,
+        "question": "Who is more likely to remember your favorite childhood song?",
+        "correctResponse": "You both agree on who's the music lover! 🎶",
+        "falseResponse": "Someone’s favorite song is probably the one they can’t stop humming... badly. 🎤"
+      },
+      {
+        "id": 73,
+        "question": "Who is more likely to remember your favorite childhood movie?",
+        "correctResponse": "You both agree on who's the movie buff! 🎥",
+        "falseResponse": "Someone’s favorite movie is probably the one they fell asleep watching. 🛌"
+      },
+      {
+        "id": 74,
+        "question": "Who is more likely to remember your favorite childhood toy?",
+        "correctResponse": "You both agree on who's the nostalgic one! 🧸",
+        "falseResponse": "Someone’s favorite toy is probably the one they broke... just like their promises. 🪀"
+      },
+      {
+        "id": 75,
+        "question": "Who is more likely to remember your favorite childhood holiday?",
+        "correctResponse": "You both agree on who's the festive one! 🎄",
+        "falseResponse": "Someone’s favorite holiday is probably the one they spent alone. 🎁"
+      },
+      {
+        "id": 76,
+        "question": "Who is more likely to remember your favorite childhood memory?",
+        "correctResponse": "You both agree on who's the sentimental one! 🌈",
+        "falseResponse": "Someone’s favorite memory is probably the day they met you... sad. 😬"
+      },
+      {
+        "id": 77,
+        "question": "Who is more likely to remember your favorite childhood game?",
+        "correctResponse": "You both agree on who's the gamer! 🎮",
+        "falseResponse": "Someone’s favorite game is probably solitaire... because they’re always alone. 🃏"
+      },
+      {
+        "id": 78,
+        "question": "Who is more likely to remember your favorite childhood story?",
+        "correctResponse": "You both agree on who's the storyteller! 📖",
+        "falseResponse": "Someone’s favorite story is probably the one they made up to impress you. 🧙‍♂️"
+      },
+      {
+        "id": 79,
+        "question": "Who is more likely to remember your favorite childhood teacher?",
+        "correctResponse": "You both agree on who's the teacher's pet! 🍎",
+        "falseResponse": "Someone’s favorite teacher is probably the one who gave them a participation trophy. 🏆"
+      },
+      {
+        "id": 80,
+        "question": "Who is more likely to remember your favorite childhood vacation?",
+        "correctResponse": "You both agree on who's the travel enthusiast! 🌴",
+        "falseResponse": "Someone’s favorite vacation spot is probably their couch. 🛋️"
+      }
+    ]
+  }
+
