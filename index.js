@@ -8,6 +8,7 @@ const Game = require("./service.js")
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
+var quizzes;
 
 // Load questions from json file
 fs.readFile("./quizzes.json", "utf8", (err, data) => {
@@ -15,7 +16,8 @@ fs.readFile("./quizzes.json", "utf8", (err, data) => {
     console.error("Error reading file:", err);
     return;
   }
-  const quizzes = JSON.parse(data).quizzes;
+  quizzes = JSON.parse(data).quizzes;
+  console.log(quizzes)
 });
 
 const rooms = {}; // Store active games
@@ -29,11 +31,7 @@ io.on("connection", (socket) => {
 
     socket.on("joinGame", ({ roomId, playerName }) => {
         if (!rooms[roomId]) {
-            rooms[roomId] = new Game(roomId, [
-                { id: 1, question: "Who takes longer in the shower?" },
-                { id: 2, question: "Who makes better dinner?" },
-                { id: 3, question: "Who is more likely to forget an anniversary?" }
-            ]);
+            rooms[roomId] = new Game(roomId, quizzes);
             rooms[roomId].setIo(io);
         }
 

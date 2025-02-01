@@ -33,32 +33,35 @@ class Game {
         if (this.currentQuestionIndex < this.questions.length) {
             const question = this.questions[this.currentQuestionIndex];
             this.answers = {}; // Reset answers for this round
-            this.io.to(this.roomId).emit("newQuestion", question);
+            this.io.to(this.roomId).emit("newQuestion", question.question);
         } else {
             this.io.to(this.roomId).emit("gameOver", "Game Over! Thanks for playing.");
         }
     }
+      submitAnswer(playerId, answer) {
+          // Store the answer from the player
+          this.answers[playerId] = answer;
+          console.log(`playerId: ${playerId} answer: ${answer ? "true" : "false"}`);
 
-    submitAnswer(playerId, answer) {
-        this.answers[playerId] = answer;
-        console.log(`playerId : ${playerId} answer : ${answer?"true":"false"}`)
-    
+          // Wait for both players to answer
+          if (Object.keys(this.answers).length === 2) {
+              const question = this.questions[this.currentQuestionIndex];
+              
+              // Calculate whether both answers are correct or not
+              const ans = this.answers.player1 && this.answers.player2;
+      
+              // Send the results to both players
+              this.io.to(this.roomId).emit("results", {
+                  message: ans ? question.correctResponse : question.falseResponse
+              });
 
-        // Wait for both players to answer
-        if (Object.keys(this.answers).length === 2) {
-            this.io.to(this.roomId).emit("results", {
-                player1: this.players[Object.keys(this.players)[0]],
-                player2: this.players[Object.keys(this.players)[1]],
-                answers: this.answers,
-            });
-
-            // Move to next question after a short delay
-            setTimeout(() => {
-                this.currentQuestionIndex++;
-                this.askQuestion();
-            }, 1000);
-        }
-    }
+              // Move to the next question after a short delay
+              setTimeout(() => {
+                  this.currentQuestionIndex++;
+                  this.askQuestion();
+              }, 1000);
+          }
+      }
 }
 
 module.exports = Game;
