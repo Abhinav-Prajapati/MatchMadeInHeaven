@@ -16,7 +16,7 @@ const io = socketIo(server, {
     }
 });
 
-app.use(cors());
+app.use(cors({ origin: '*' }));
 
 app.get("/", (req, res) => {
     res.json({ message: "WebSocket Game Server is running!" });
