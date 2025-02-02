@@ -10,6 +10,7 @@ class Game {
         this.readyPlayers = {};
         this.io = null; // Will be assigned later
         this.maxQuestions = 15;
+        this.playerNames = {}; // Store player names
     }
 
     setIo(io) {
@@ -24,6 +25,12 @@ class Game {
         }
         return false; // Room is full
     }
+
+
+      getPlayerNames() {
+        // Return an array of player names (instead of socket IDs)
+        return Object.keys(this.players).map(playerId => this.players[playerId]);
+       }
 
     startGame() {
         if (Object.keys(this.players).length === 2) {

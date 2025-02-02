@@ -57,7 +57,13 @@ io.on("connection", (socket) => {
 
             if (Object.keys(game.players).length === 2) {
                 io.to(roomId).emit("gameStart", "Game is starting!");
+        
                 game.startGame();
+        
+                // Emit player names to both players after both players have joined
+                const playerNames = game.getPlayerNames();
+                io.to(roomId).emit("getPlayerNames", playerNames);
+                console.log(`sending names ${playerNames}`)
             }
         } else {
             socket.emit("roomFull", "Room is already full.");
